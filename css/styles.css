@@ -1,11 +1,19 @@
-*{
-    margin: 0;
+h1,h2,h3,h4,h5,h6,p {
+    margin-bottom: 0;
+    margin-top: 0;
     padding: 0;
-    list-style: none;
-    box-sizing: border-box;
+    /* list-style: none;
+    box-sizing: border-box; */
 }
 
+.conteiner {
+    /* width: 1128px;    */
+    max-width: 1128px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 
+}
 
 body {
     font-family: "Roboto", sans-serif ;
@@ -21,10 +29,14 @@ address {
 }
 ul {
     list-style: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 0;
 }
 
 a { 
     text-decoration: none;
+    color: currentColor;
 }
 
 /* ================ HEADER ================= */
