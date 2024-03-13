@@ -6,7 +6,7 @@ h1,h2,h3,h4,h5,h6,p {
     box-sizing: border-box; */
 }
 
-.conteiner {
+.container {
     /* width: 1128px;    */
     max-width: 1128px;
     padding-left: 15px;
@@ -42,18 +42,19 @@ a {
 /* ================ HEADER ================= */
 .header {
     font-family: "Raleway", sans-serif;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    /* padding-left: 156px; */
+
 }
 
 .head {}
 
 .body {}
 
-.header {
-  
-}
 
-.header-nav {
-     }
+
+.header-nav {     }
 
 .header-logo {
     font-weight: 700;
@@ -125,6 +126,8 @@ a:focus {
 }
 .hero {
     background-color:#2e2f42 ;
+    
+    
 }
 
 .hero-text {
@@ -134,6 +137,11 @@ a:focus {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    /* margin-bottom: 48px; */
+    max-width: 496px;
+    margin: 0 auto ;
+    padding-top: 188px;
+    padding-bottom: 48px;
 }
 
 .hero-btn {
@@ -145,6 +153,8 @@ a:focus {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    
+    
 }
 .hero-btn:hover {
     background-color: #404BBF;
