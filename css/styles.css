@@ -163,7 +163,10 @@ a:focus {
     background-color: #404BBF;
 }
 /*--------- 2 section---- */
-.skills {}
+.skills {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .skills-title {
     font-weight: 500;
@@ -199,6 +202,8 @@ a:focus {
 }
 .team-section {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 
     
 }
@@ -247,7 +252,11 @@ a:focus {
     text-align: center;
     color: #434455;
 }
+.our-portfolio {
+    /* padding-top: 120px; */
+    padding-bottom: 120px;
 
+}
 .portfolio {
     line-height: 40px;    
     letter-spacing: 0.02em;
@@ -308,4 +317,8 @@ a:focus {
     letter-spacing: 0.03em;
     text-transform: uppercase;    
     color: #f4f4fd;
+}
+.footer-txt {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
