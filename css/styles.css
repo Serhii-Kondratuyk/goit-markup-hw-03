@@ -17,6 +17,8 @@ img {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+    display: flex;
+    width: 1158px;
 
 }
 
@@ -60,7 +62,9 @@ a {
 
 
 
-.header-nav {     }
+.header-nav { 
+    display: flex; 
+    align-items: center;   }
 
 .header-logo {
     font-family: "Raleway", sans-serif;
@@ -71,6 +75,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
     
 
 
@@ -86,7 +91,10 @@ a {
         color: #2e2f42;
 }
 
-.header-list { }
+.header-list {
+    display: flex; 
+    gap: 40px;
+}
 
 .header-items {
   
@@ -108,9 +116,18 @@ a:focus {
     color: #2e2f42;
 }
 
-.address {}
+.address {
+    
+}
 
 .address-list { }
+
+.address-items-mail {
+    display: flex;
+    gap: 40px;   
+    padding: 24px 0;
+
+}
 
 .address-mail {
     font-weight: 400;
@@ -119,6 +136,8 @@ a:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    
+   
 }
 
 .address-items-mail{}
