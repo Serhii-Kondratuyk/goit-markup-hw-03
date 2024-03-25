@@ -13,7 +13,7 @@ img {
 
 .container {
     /* width: 1128px;    */
-    max-width: 1128px;
+    /* max-width: 1128px; */
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -126,6 +126,7 @@ a:focus {
     display: flex;
     gap: 40px;   
     padding: 24px 0;
+    display: flex;
 
 }
 
@@ -136,14 +137,17 @@ a:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    
+    padding: 24px 0;
    
 }
 
-.address-items-mail{}
+/* .address-items-mail{} */
 
 
-.address-items-tel{}
+.address-items-tel{
+    display: flex;
+    gap: 40px;
+}
 
 
 
@@ -152,6 +156,7 @@ a:focus {
 }
 .hero {
     background-color:#2e2f42 ;
+    padding: 188px 0;
     
     
 }
@@ -179,6 +184,10 @@ a:focus {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
     
     
 }
@@ -202,11 +211,18 @@ a:focus {
     color: #2e2f42;
 }
 
-.skills-paragraf-nw {}
+.skills-paragraf-nw {
+    
+}
 
-.skills-list {}
+.skills-list {
+    display: flex;
+    gap: 24px;
+}
 
-.skills-items {}
+.skills-items {
+    width: calc((100% - 72px) / 4);
+}
 
 .skills-txt {
     font-weight: 500;
@@ -215,6 +231,7 @@ a:focus {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .skills-paragraf {
