@@ -276,30 +276,46 @@ a:focus {
     /* display: flex; */
     gap: 24px;
     width: calc((100% - 72px) / 4);
+    display: flex
     
 }
 
 .team-items {
+    
     background-color: #FFFFFF
     /* width: calc((100% - 72px) / 4); */
-    border-radius: 0px 0px 4px 4px;
+    
     
 }
 .mark-guerrero {
     padding: 32px 0;   
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 
 }
 
 .tom-ford{
     padding: 32px 0;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    
 }
 
 
 .camila-garcia{
     padding: 32px 0;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.aniel-wilson {
+    padding: 32px 0;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 .team-persona{
-    padding: 32px 0;
+    /* padding: 32px 0; */
+    
 }
 
 
