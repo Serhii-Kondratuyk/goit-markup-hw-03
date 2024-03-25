@@ -364,9 +364,11 @@ a:focus {
     text-align: center;
     color: #2e2f42;
     font-size: 36px;
-    line-height: 1.11
+    line-height: 1.11;
     margin-bottom: 72px;
     margin-bottom: 8px;
+    
+
 }
 
 .portfolio-list {
@@ -377,7 +379,22 @@ a:focus {
     /* width: calc((100% - 48px) / 3); */
 }
 
-.portfolio-items {
+.portfolio-items1 {
+    width: calc((100% - 48px) / 3);
+}
+.portfolio-items2 {
+    width: calc((100% - 48px) / 3);
+}
+.portfolio-items3 {
+    width: calc((100% - 48px) / 3);
+}
+.portfolio-items4 {
+    width: calc((100% - 48px) / 3);
+}
+.portfolio-items5 {
+    width: calc((100% - 48px) / 3);
+}
+.portfolio-items6 {
     width: calc((100% - 48px) / 3);
 }
 
