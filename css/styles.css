@@ -366,7 +366,7 @@ a:focus {
     font-size: 36px;
     line-height: 1.11;
     margin-bottom: 72px;
-    margin-bottom: 8px;
+    
     
 
 }
@@ -379,22 +379,22 @@ a:focus {
     /* width: calc((100% - 48px) / 3); */
 }
 
-.portfolio-items1 {
+.portfolio-items11 {
     width: calc((100% - 48px) / 3);
 }
-.portfolio-items2 {
+.portfolio-items22 {
     width: calc((100% - 48px) / 3);
 }
-.portfolio-items3 {
+.portfolio-items33 {
     width: calc((100% - 48px) / 3);
 }
-.portfolio-items4 {
+.portfolio-items44 {
     width: calc((100% - 48px) / 3);
 }
-.portfolio-items5 {
+.portfolio-items55 {
     width: calc((100% - 48px) / 3);
 }
-.portfolio-items6 {
+.portfolio-items66 {
     width: calc((100% - 48px) / 3);
 }
 
@@ -437,6 +437,7 @@ a:focus {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    margin-bottom: 8px;
     
 }
 
