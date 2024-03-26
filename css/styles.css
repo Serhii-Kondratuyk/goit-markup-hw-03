@@ -20,6 +20,7 @@ img {
     display: flex;
     width: 1158px;
     
+    
 
 }
 
@@ -50,12 +51,13 @@ a {
 /* ================ HEADER ================= */
 .header {
     
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
     /* padding-left: 156px; */
     border-bottom: 1px solid #e7e9fc;
-    width: 1158px;
     padding: 24px 0;
+    /* width: 1158px; */
+    
 
 }
 
@@ -154,16 +156,17 @@ a:focus {
     
    
 }
-/* .address-mail-div {
+.address-mail-div {
     display: flex;
-} */
+    gap: 40px;
+}
 
 /* .address-items-mail{} */
 
 
 .address-items-tel{
     display: flex;
-    gap: 40px;
+    /* gap: 40px; */
     padding: 24px 0;
 }
 
