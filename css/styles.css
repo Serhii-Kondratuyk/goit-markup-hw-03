@@ -309,20 +309,21 @@ a:focus {
 
 }
 
-.team-div {
+/* .team-div {
     flex-basis: calc((100% - 72px) / 4));
-}
+} */
 .team-list {
     /* background-color: #FFFFFF; */
     /* display: flex; */
-    /* gap: 24px; */
+    gap: 24px;
     /* width: calc((100% - 72px) / 4); */
     display: flex;
     
     
+    
 }
 
-.team-items1 {
+.team-items-f {
     
     background-color: #FFFFFF;     
     /* width: calc((100% - 72px) / 4); */
