@@ -309,7 +309,7 @@ a:focus {
 
 }
 .team-list {
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
     /* display: flex; */
     /* gap: 24px; */
     /* width: calc((100% - 72px) / 4); */
@@ -335,7 +335,7 @@ a:focus {
     margin-right: 0;
 
 }
-.mark-guerrero {
+.team-my {
     padding: 32px 0;   
     /* width: calc((100% - 72px) / 4); */
     border-radius: 0px 0px 4px 4px;
@@ -345,31 +345,31 @@ a:focus {
 
 }
 
-.tom-ford{
+/* .tom-ford{
     padding: 32px 0;
     /* width: calc((100% - 72px) / 4); */
-    border-radius: 0px 0px 4px 4px;
-    margin-right: 24px;
-    flex-basis: calc((100% - 72px) / 4);
+    /* border-radius: 0px 0px 4px 4px; */
+    /* margin-right: 24px; */
+    /* flex-basis: calc((100% - 72px) / 4); */
     
-}
+/* } */
 
 
-.camila-garcia{
+/* .camila-garcia{ */
+    /* padding: 32px 0; */
+    /* width: calc((100% - 72px) / 4); */
+    /* border-radius: 0px 0px 4px 4px; */
+    /* margin-right: 24px; */
+    /* flex-basis: calc((100% - 72px) / 4); */
+/* } */
+
+/* .aniel-wilson {
     padding: 32px 0;
     /* width: calc((100% - 72px) / 4); */
-    border-radius: 0px 0px 4px 4px;
-    margin-right: 24px;
-    flex-basis: calc((100% - 72px) / 4);
-}
-
-.aniel-wilson {
-    padding: 32px 0;
-    /* width: calc((100% - 72px) / 4); */
-    border-radius: 0px 0px 4px 4px;
-    margin-right: 0;
-    flex-basis: calc((100% - 72px) / 4);
-}
+    /* border-radius: 0px 0px 4px 4px; */
+    /* margin-right: 0; */
+    /* flex-basis: calc((100% - 72px) / 4); */
+/* } */
 .team-persona{
     /* padding: 32px 0; */
     
