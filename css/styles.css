@@ -99,7 +99,7 @@ a {
 .header-list {
     display: flex; 
     gap: 40px;
-    padding: 24px 0;
+    /* padding: 24px 0; */
     
 }
 
@@ -135,13 +135,13 @@ a:focus {
 .address-list { 
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+    /* padding: 24px 0; */
     
 }
 
 .address-items-mail {
     display: flex;
-    gap: 40px;   
+    /* gap: 40px;    */
     padding: 24px 0;
     
 
@@ -158,10 +158,11 @@ a:focus {
     
    
 }
-/* .address-mail-div { */
-    /* display: flex; */
-    /* gap: 40px; */
-/* } */
+.address-mail-div {
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
+}
 
 /* .address-items-mail{} */
 
