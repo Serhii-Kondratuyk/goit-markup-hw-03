@@ -13,7 +13,7 @@ img {
 
 .container {
     /* width: 1128px;    */
-    /* max-width: 1128px; */
+    max-width: 1128px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -53,6 +53,7 @@ a {
     padding-bottom: 24px;
     /* padding-left: 156px; */
     border-bottom: 1px solid #e7e9fc
+    
 
 }
 
@@ -81,7 +82,7 @@ a {
 
 }
 
-.header-logo-Studio {
+.header-logo-studio {
     font-weight: 700;
         font-size: 18px;
         line-height: 21px;
@@ -94,6 +95,7 @@ a {
 .header-list {
     display: flex; 
     gap: 40px;
+    padding: 24px 0;
 }
 
 .header-items {
@@ -117,16 +119,22 @@ a:focus {
 }
 
 .address {
-    
+   padding-right: 156px;
+   /* padding-left: 356px; */
+   /* margin: 0 156px 0 0 ; */
 }
 
-.address-list { }
+.address-list { 
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
+}
 
 .address-items-mail {
     display: flex;
     gap: 40px;   
     padding: 24px 0;
-    display: flex;
+    
 
 }
 
@@ -138,8 +146,12 @@ a:focus {
     letter-spacing: 0.02em;
     color: #434455;
     padding: 24px 0;
+    
    
 }
+/* .address-mail-div {
+    display: flex;
+} */
 
 /* .address-items-mail{} */
 
@@ -147,6 +159,7 @@ a:focus {
 .address-items-tel{
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 
