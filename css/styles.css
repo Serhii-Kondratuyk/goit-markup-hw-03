@@ -19,6 +19,7 @@ img {
     margin: 0 auto;
     display: flex;
     width: 1158px;
+    
 
 }
 
@@ -53,7 +54,7 @@ a {
     padding-bottom: 24px;
     /* padding-left: 156px; */
     border-bottom: 1px solid #e7e9fc
-    
+    width: 1158px;
 
 }
 
@@ -99,6 +100,7 @@ a {
 }
 
 .header-items {
+    padding: 24px 0;
   
 
 }
@@ -128,6 +130,7 @@ a:focus {
     display: flex;
     gap: 40px;
     padding: 24px 0;
+    
 }
 
 .address-items-mail {
